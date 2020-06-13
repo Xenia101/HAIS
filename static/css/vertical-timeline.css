@@ -93,6 +93,12 @@
 .vt-noarrows:after {
   content: none; }
 
+@media only screen and (max-width: 768px) {
+  #logo{
+    width: 350px;
+  }
+}
+
 @media only screen and (max-width: 992px) {
   .vtimeline:before {
     left: 30px;
