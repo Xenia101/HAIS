@@ -19,6 +19,10 @@
             background-color: #222222;
         }
 
+        .container {
+            margin-top: 55px;
+        }
+
         .navbar-brand {
             color: #cfac4c !important;
         }
@@ -34,12 +38,28 @@
         #w-content {
             color: white;
         }
+
+        body::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        body::-webkit-scrollbar-thumb {
+            background-color: #cfac4c;
+            border-radius: 10px;
+            background-clip: padding-box;
+            border: 2px solid transparent;
+        }
+
+        body::-webkit-scrollbar-track {
+            background-color: #222222;
+            border-radius: 10px;
+        }
     </style>
 </head>
 
 <body>
     <!--nav bar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="#">
             <img src="static/img/logo.png" width="30" height="30" alt="" loading="lazy">
             HAIS
