@@ -55,6 +55,7 @@
     border-left: 10px solid #eee;
     border-right: none; }
 
+
 .vtimeline-right {
   margin-left: 55%; }
   .vtimeline-right.vt-animate-slide .vtimeline-content {
@@ -72,7 +73,7 @@
     border-right: 10px solid #eee; }
 
 .vtimeline-date {
-  color: white;
+  color: #eee;
   position: absolute;
   left: 55%;
   top: 15px; }
